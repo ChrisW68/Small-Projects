@@ -1,0 +1,2121 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster-src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_ac70dc09fbd24727acd0de51614a2f13 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ac70dc09fbd24727acd0de51614a2f13" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var southWest = L.latLng(-90, -180);
+                var northEast = L.latLng(90, 180);
+                var bounds = L.latLngBounds(southWest, northEast);
+            
+
+            var map_ac70dc09fbd24727acd0de51614a2f13 = L.map(
+                                  'map_ac70dc09fbd24727acd0de51614a2f13',
+                                  {center: [45.410088,-122.63992],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_72cb507c46844c49b5e7661834017c1f = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Map tiles by <a href="http://www.mapbox.com/m">Mapbox</a> Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+
+        
+    
+
+            var marker_9c236fbd27a34cf8817748e541b32740 = L.marker(
+                [48.7767982,-121.810997],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_8505db41ad884b239c1e19493699ec36 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9c236fbd27a34cf8817748e541b32740.setIcon(icon_8505db41ad884b239c1e19493699ec36);
+            
+    
+            var popup_cdc755aff39f469cb769d65f049a793c = L.popup({maxWidth: '300'});
+
+            
+                var html_579021cdc0b94451be75eb5705ac1901 = $('<div id="html_579021cdc0b94451be75eb5705ac1901" style="width: 100.0%; height: 100.0%;">Baker - 3285.0 meters</div>')[0];
+                popup_cdc755aff39f469cb769d65f049a793c.setContent(html_579021cdc0b94451be75eb5705ac1901);
+            
+
+            marker_9c236fbd27a34cf8817748e541b32740.bindPopup(popup_cdc755aff39f469cb769d65f049a793c);
+
+            
+        
+    
+
+            var marker_cfb8025148ac4b06a4c0c976617a139e = L.marker(
+                [48.1118011,-121.1110001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_bc4a644765844583a2ce792f00ddb0db = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cfb8025148ac4b06a4c0c976617a139e.setIcon(icon_bc4a644765844583a2ce792f00ddb0db);
+            
+    
+            var popup_f04fac4fadb9427aaf4c22c77c4df8b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_4937fdd9e99149589fe35cdb70577424 = $('<div id="html_4937fdd9e99149589fe35cdb70577424" style="width: 100.0%; height: 100.0%;">Glacier Peak - 3213.0 meters</div>')[0];
+                popup_f04fac4fadb9427aaf4c22c77c4df8b4.setContent(html_4937fdd9e99149589fe35cdb70577424);
+            
+
+            marker_cfb8025148ac4b06a4c0c976617a139e.bindPopup(popup_f04fac4fadb9427aaf4c22c77c4df8b4);
+
+            
+        
+    
+
+            var marker_e892dfad22464195a3a0109ac363df99 = L.marker(
+                [46.8698006,-121.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_2a183c6025da488a88ffa21401a40d6f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e892dfad22464195a3a0109ac363df99.setIcon(icon_2a183c6025da488a88ffa21401a40d6f);
+            
+    
+            var popup_5e8551f50877449a85d2c628bee4b8e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_906afe733a38413dbf4e33826cded8b5 = $('<div id="html_906afe733a38413dbf4e33826cded8b5" style="width: 100.0%; height: 100.0%;">Rainier - 4392.0 meters</div>')[0];
+                popup_5e8551f50877449a85d2c628bee4b8e9.setContent(html_906afe733a38413dbf4e33826cded8b5);
+            
+
+            marker_e892dfad22464195a3a0109ac363df99.bindPopup(popup_5e8551f50877449a85d2c628bee4b8e9);
+
+            
+        
+    
+
+            var marker_033f5549318c437fa7324b590ba01723 = L.marker(
+                [46.1997986,-122.1809998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_793e1743964d45e7b954b4d5bcf9e010 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_033f5549318c437fa7324b590ba01723.setIcon(icon_793e1743964d45e7b954b4d5bcf9e010);
+            
+    
+            var popup_33d27e03129f4c6c9f3d3e18c8e80762 = L.popup({maxWidth: '300'});
+
+            
+                var html_40b7aa6670574cd7b8fbb3bcfe05427b = $('<div id="html_40b7aa6670574cd7b8fbb3bcfe05427b" style="width: 100.0%; height: 100.0%;">St. Helens - 2549.0 meters</div>')[0];
+                popup_33d27e03129f4c6c9f3d3e18c8e80762.setContent(html_40b7aa6670574cd7b8fbb3bcfe05427b);
+            
+
+            marker_033f5549318c437fa7324b590ba01723.bindPopup(popup_33d27e03129f4c6c9f3d3e18c8e80762);
+
+            
+        
+    
+
+            var marker_79c57d5b9405418a905e6cef2e323e19 = L.marker(
+                [46.2057991,-121.4909973],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_bf2de2d384204aa5bdfd742087058916 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_79c57d5b9405418a905e6cef2e323e19.setIcon(icon_bf2de2d384204aa5bdfd742087058916);
+            
+    
+            var popup_a87421fd728444118ad8c9a767ff5ef2 = L.popup({maxWidth: '300'});
+
+            
+                var html_68327edefa49472e8f79f10cf5317b5c = $('<div id="html_68327edefa49472e8f79f10cf5317b5c" style="width: 100.0%; height: 100.0%;">Adams - 3742.0 meters</div>')[0];
+                popup_a87421fd728444118ad8c9a767ff5ef2.setContent(html_68327edefa49472e8f79f10cf5317b5c);
+            
+
+            marker_79c57d5b9405418a905e6cef2e323e19.bindPopup(popup_a87421fd728444118ad8c9a767ff5ef2);
+
+            
+        
+    
+
+            var marker_f72689b501374e96881ae72af0e11f27 = L.marker(
+                [45.8797989,-122.0810013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_6a4d7718335c4dcda770a66c8897706d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f72689b501374e96881ae72af0e11f27.setIcon(icon_6a4d7718335c4dcda770a66c8897706d);
+            
+    
+            var popup_44612a97371a4b4db4d1613f1fd9f73c = L.popup({maxWidth: '300'});
+
+            
+                var html_1c78d3cc37964b0abe471874a6648ae1 = $('<div id="html_1c78d3cc37964b0abe471874a6648ae1" style="width: 100.0%; height: 100.0%;">West Crater - 1329.0 meters</div>')[0];
+                popup_44612a97371a4b4db4d1613f1fd9f73c.setContent(html_1c78d3cc37964b0abe471874a6648ae1);
+            
+
+            marker_f72689b501374e96881ae72af0e11f27.bindPopup(popup_44612a97371a4b4db4d1613f1fd9f73c);
+
+            
+        
+    
+
+            var marker_e24ad385ad7a47e09744e0c66e65a87d = L.marker(
+                [45.9297981,-121.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_a7c309cbf7004e95b5fa5068d4e1672f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e24ad385ad7a47e09744e0c66e65a87d.setIcon(icon_a7c309cbf7004e95b5fa5068d4e1672f);
+            
+    
+            var popup_0f9e6898da154feab049baf7fa33411e = L.popup({maxWidth: '300'});
+
+            
+                var html_fda263ca903a4d61b409ab95562214de = $('<div id="html_fda263ca903a4d61b409ab95562214de" style="width: 100.0%; height: 100.0%;">Indian Heaven - 1806.0 meters</div>')[0];
+                popup_0f9e6898da154feab049baf7fa33411e.setContent(html_fda263ca903a4d61b409ab95562214de);
+            
+
+            marker_e24ad385ad7a47e09744e0c66e65a87d.bindPopup(popup_0f9e6898da154feab049baf7fa33411e);
+
+            
+        
+    
+
+            var marker_ad93d5ee7e81411d935fa1d448222cbb = L.marker(
+                [45.3737984,-121.6910019],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_c59a5e484f164abc8f15acf61fee9bc4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ad93d5ee7e81411d935fa1d448222cbb.setIcon(icon_c59a5e484f164abc8f15acf61fee9bc4);
+            
+    
+            var popup_095362ad94dd4efaa4decd99cd594345 = L.popup({maxWidth: '300'});
+
+            
+                var html_d7f016ada06346d6a2ddbde5a5088949 = $('<div id="html_d7f016ada06346d6a2ddbde5a5088949" style="width: 100.0%; height: 100.0%;">Hood - 3426.0 meters</div>')[0];
+                popup_095362ad94dd4efaa4decd99cd594345.setContent(html_d7f016ada06346d6a2ddbde5a5088949);
+            
+
+            marker_ad93d5ee7e81411d935fa1d448222cbb.bindPopup(popup_095362ad94dd4efaa4decd99cd594345);
+
+            
+        
+    
+
+            var marker_d855538d068144929467cf30ffa5b2e5 = L.marker(
+                [44.6917992,-121.8010025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_6cc3d847cbe94611a36ecf3f74542d54 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d855538d068144929467cf30ffa5b2e5.setIcon(icon_6cc3d847cbe94611a36ecf3f74542d54);
+            
+    
+            var popup_2b0c815fea3c4545888019c7e672e369 = L.popup({maxWidth: '300'});
+
+            
+                var html_20d1a3ccd400407fbf28d52fa149d7fb = $('<div id="html_20d1a3ccd400407fbf28d52fa149d7fb" style="width: 100.0%; height: 100.0%;">Jefferson - 3199.0 meters</div>')[0];
+                popup_2b0c815fea3c4545888019c7e672e369.setContent(html_20d1a3ccd400407fbf28d52fa149d7fb);
+            
+
+            marker_d855538d068144929467cf30ffa5b2e5.bindPopup(popup_2b0c815fea3c4545888019c7e672e369);
+
+            
+        
+    
+
+            var marker_995b09c757194085b5f92a55305bf607 = L.marker(
+                [44.4197998,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_585724b76fee473fae24b631cc4a9c98 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_995b09c757194085b5f92a55305bf607.setIcon(icon_585724b76fee473fae24b631cc4a9c98);
+            
+    
+            var popup_32baf34853f94098826c6b4fd3bda3cc = L.popup({maxWidth: '300'});
+
+            
+                var html_211c6b633dc94afb8a15da346c0bc202 = $('<div id="html_211c6b633dc94afb8a15da346c0bc202" style="width: 100.0%; height: 100.0%;">Blue Lake Crater - 1230.0 meters</div>')[0];
+                popup_32baf34853f94098826c6b4fd3bda3cc.setContent(html_211c6b633dc94afb8a15da346c0bc202);
+            
+
+            marker_995b09c757194085b5f92a55305bf607.bindPopup(popup_32baf34853f94098826c6b4fd3bda3cc);
+
+            
+        
+    
+
+            var marker_5283e786bd77424092e8f0c735081ffb = L.marker(
+                [44.3797989,-121.9309998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_574efac0a19f47c4acfc68c64176f534 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5283e786bd77424092e8f0c735081ffb.setIcon(icon_574efac0a19f47c4acfc68c64176f534);
+            
+    
+            var popup_a0f8f067403c42118f052afcf7d2a201 = L.popup({maxWidth: '300'});
+
+            
+                var html_e4df521d74404e36876652fcf36c3fbf = $('<div id="html_e4df521d74404e36876652fcf36c3fbf" style="width: 100.0%; height: 100.0%;">Sand Mountain Field - 1664.0 meters</div>')[0];
+                popup_a0f8f067403c42118f052afcf7d2a201.setContent(html_e4df521d74404e36876652fcf36c3fbf);
+            
+
+            marker_5283e786bd77424092e8f0c735081ffb.bindPopup(popup_a0f8f067403c42118f052afcf7d2a201);
+
+            
+        
+    
+
+            var marker_223ca25e7d544846ba37035e9fe1a374 = L.marker(
+                [44.3317986,-121.8310013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_f7914c2c26dc4a009c8f791e33f8b7fc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_223ca25e7d544846ba37035e9fe1a374.setIcon(icon_f7914c2c26dc4a009c8f791e33f8b7fc);
+            
+    
+            var popup_bd327ae5d39145c99b204160778156e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_dcde0bfd26774173a840a1dd26deea00 = $('<div id="html_dcde0bfd26774173a840a1dd26deea00" style="width: 100.0%; height: 100.0%;">Washington - 2376.0 meters</div>')[0];
+                popup_bd327ae5d39145c99b204160778156e6.setContent(html_dcde0bfd26774173a840a1dd26deea00);
+            
+
+            marker_223ca25e7d544846ba37035e9fe1a374.bindPopup(popup_bd327ae5d39145c99b204160778156e6);
+
+            
+        
+    
+
+            var marker_82ed9a3f273448798d2d6acb48673c34 = L.marker(
+                [44.2848015,-121.8410034],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_59216ac1b148453394b2a021768e561a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_82ed9a3f273448798d2d6acb48673c34.setIcon(icon_59216ac1b148453394b2a021768e561a);
+            
+    
+            var popup_e1c670d02a27412ba4b8b90662863c74 = L.popup({maxWidth: '300'});
+
+            
+                var html_1e2044870fbd443cb1a097002262dd74 = $('<div id="html_1e2044870fbd443cb1a097002262dd74" style="width: 100.0%; height: 100.0%;">Belknap - 2095.0 meters</div>')[0];
+                popup_e1c670d02a27412ba4b8b90662863c74.setContent(html_1e2044870fbd443cb1a097002262dd74);
+            
+
+            marker_82ed9a3f273448798d2d6acb48673c34.bindPopup(popup_e1c670d02a27412ba4b8b90662863c74);
+
+            
+        
+    
+
+            var marker_b0a1019f205641618b55e8a955cde505 = L.marker(
+                [44.1697998,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_5c7949adc3c248cb873d2e72a53304ed = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b0a1019f205641618b55e8a955cde505.setIcon(icon_5c7949adc3c248cb873d2e72a53304ed);
+            
+    
+            var popup_c41d25a2067a4208a41879c92486e6a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_37e70cd92a904ddabe8d870e9cc333ea = $('<div id="html_37e70cd92a904ddabe8d870e9cc333ea" style="width: 100.0%; height: 100.0%;">North Sister Field - 3074.0 meters</div>')[0];
+                popup_c41d25a2067a4208a41879c92486e6a2.setContent(html_37e70cd92a904ddabe8d870e9cc333ea);
+            
+
+            marker_b0a1019f205641618b55e8a955cde505.bindPopup(popup_c41d25a2067a4208a41879c92486e6a2);
+
+            
+        
+    
+
+            var marker_aac5ba8d2d964273b6596aa713dc7db6 = L.marker(
+                [44.0998001,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_0507e6e66ced4ec3894ef7182c88ea9f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aac5ba8d2d964273b6596aa713dc7db6.setIcon(icon_0507e6e66ced4ec3894ef7182c88ea9f);
+            
+    
+            var popup_9331e1977331485584c1b07439a4f110 = L.popup({maxWidth: '300'});
+
+            
+                var html_2b8f8af8c3004b0dbe6bda8d6be8da15 = $('<div id="html_2b8f8af8c3004b0dbe6bda8d6be8da15" style="width: 100.0%; height: 100.0%;">South Sister - 3157.0 meters</div>')[0];
+                popup_9331e1977331485584c1b07439a4f110.setContent(html_2b8f8af8c3004b0dbe6bda8d6be8da15);
+            
+
+            marker_aac5ba8d2d964273b6596aa713dc7db6.bindPopup(popup_9331e1977331485584c1b07439a4f110);
+
+            
+        
+    
+
+            var marker_9ff0f19c10e0456a911446fd0a0a880b = L.marker(
+                [43.9788017,-121.6809998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_0ad030cfe1ed4680aac416448f986c25 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9ff0f19c10e0456a911446fd0a0a880b.setIcon(icon_0ad030cfe1ed4680aac416448f986c25);
+            
+    
+            var popup_369c5ef932b240498fe546d65c3f61af = L.popup({maxWidth: '300'});
+
+            
+                var html_8a83e2b8e58545389572cd835da00bf2 = $('<div id="html_8a83e2b8e58545389572cd835da00bf2" style="width: 100.0%; height: 100.0%;">Bachelor - 2763.0 meters</div>')[0];
+                popup_369c5ef932b240498fe546d65c3f61af.setContent(html_8a83e2b8e58545389572cd835da00bf2);
+            
+
+            marker_9ff0f19c10e0456a911446fd0a0a880b.bindPopup(popup_369c5ef932b240498fe546d65c3f61af);
+
+            
+        
+    
+
+            var marker_55d4d07a5b1249e8a0e6eb2f907ed396 = L.marker(
+                [43.7218018,-121.2210007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_5c50ef6c62d64af29abdba86225c0aef = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_55d4d07a5b1249e8a0e6eb2f907ed396.setIcon(icon_5c50ef6c62d64af29abdba86225c0aef);
+            
+    
+            var popup_13435c35c3dc4d51bdbfb22d63ba782e = L.popup({maxWidth: '300'});
+
+            
+                var html_e28e6a793bf3422f97fb6e76cd85163b = $('<div id="html_e28e6a793bf3422f97fb6e76cd85163b" style="width: 100.0%; height: 100.0%;">Newberry Volcano - 2434.0 meters</div>')[0];
+                popup_13435c35c3dc4d51bdbfb22d63ba782e.setContent(html_e28e6a793bf3422f97fb6e76cd85163b);
+            
+
+            marker_55d4d07a5b1249e8a0e6eb2f907ed396.bindPopup(popup_13435c35c3dc4d51bdbfb22d63ba782e);
+
+            
+        
+    
+
+            var marker_1c6719acd8ea4bf0a996c2f7bf0f8c5b = L.marker(
+                [43.5698013,-121.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_d7c2858623fb4f8b82a18f1a6888f54a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1c6719acd8ea4bf0a996c2f7bf0f8c5b.setIcon(icon_d7c2858623fb4f8b82a18f1a6888f54a);
+            
+    
+            var popup_b5fb2c04ac5a4ce7a88abfa6fa9d4c53 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f990be7d6ac4bcda3f9180fc5805871 = $('<div id="html_3f990be7d6ac4bcda3f9180fc5805871" style="width: 100.0%; height: 100.0%;">Davis Lake - 2163.0 meters</div>')[0];
+                popup_b5fb2c04ac5a4ce7a88abfa6fa9d4c53.setContent(html_3f990be7d6ac4bcda3f9180fc5805871);
+            
+
+            marker_1c6719acd8ea4bf0a996c2f7bf0f8c5b.bindPopup(popup_b5fb2c04ac5a4ce7a88abfa6fa9d4c53);
+
+            
+        
+    
+
+            var marker_e73ad96d7dbf4ef0b273bcb6aa49a43d = L.marker(
+                [43.5119019,-120.8610001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_1864d972c726456083ae5ff00b98cca2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e73ad96d7dbf4ef0b273bcb6aa49a43d.setIcon(icon_1864d972c726456083ae5ff00b98cca2);
+            
+    
+            var popup_7c5b8a8ee94642e5a8841e3a835d8482 = L.popup({maxWidth: '300'});
+
+            
+                var html_ef236b6e059e491187f3d26f6d87a25d = $('<div id="html_ef236b6e059e491187f3d26f6d87a25d" style="width: 100.0%; height: 100.0%;">Devils Garden - 1698.0 meters</div>')[0];
+                popup_7c5b8a8ee94642e5a8841e3a835d8482.setContent(html_ef236b6e059e491187f3d26f6d87a25d);
+            
+
+            marker_e73ad96d7dbf4ef0b273bcb6aa49a43d.bindPopup(popup_7c5b8a8ee94642e5a8841e3a835d8482);
+
+            
+        
+    
+
+            var marker_3f90e4530df544838a876fb51bb35743 = L.marker(
+                [43.240799,-122.1009979],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_86a8799e7ead48ad891cd9ebf4337cc4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3f90e4530df544838a876fb51bb35743.setIcon(icon_86a8799e7ead48ad891cd9ebf4337cc4);
+            
+    
+            var popup_636a314bbb56449f9a97595d41d4ad74 = L.popup({maxWidth: '300'});
+
+            
+                var html_20f9ca970c274fad8404a07f303ea93b = $('<div id="html_20f9ca970c274fad8404a07f303ea93b" style="width: 100.0%; height: 100.0%;">Cinnamon Butte - 1956.0 meters</div>')[0];
+                popup_636a314bbb56449f9a97595d41d4ad74.setContent(html_20f9ca970c274fad8404a07f303ea93b);
+            
+
+            marker_3f90e4530df544838a876fb51bb35743.bindPopup(popup_636a314bbb56449f9a97595d41d4ad74);
+
+            
+        
+    
+
+            var marker_e4137248e4784fd5ad4dddc93b2d0224 = L.marker(
+                [43.4719009,-120.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_ba8098b11f974757baa7a78600164d95 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e4137248e4784fd5ad4dddc93b2d0224.setIcon(icon_ba8098b11f974757baa7a78600164d95);
+            
+    
+            var popup_77ef0822c5484993a3d6ef6657bfebcc = L.popup({maxWidth: '300'});
+
+            
+                var html_fb1e3c6e3e7d4997ab930599b4dfac23 = $('<div id="html_fb1e3c6e3e7d4997ab930599b4dfac23" style="width: 100.0%; height: 100.0%;">Squaw Ridge Lava Field - 1711.0 meters</div>')[0];
+                popup_77ef0822c5484993a3d6ef6657bfebcc.setContent(html_fb1e3c6e3e7d4997ab930599b4dfac23);
+            
+
+            marker_e4137248e4784fd5ad4dddc93b2d0224.bindPopup(popup_77ef0822c5484993a3d6ef6657bfebcc);
+
+            
+        
+    
+
+            var marker_ca3d45a7f8b0484db96d31163b4fd652 = L.marker(
+                [43.3609009,-120.6610031],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_7c4717fc0a0b4ed7af69a558f841465e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ca3d45a7f8b0484db96d31163b4fd652.setIcon(icon_7c4717fc0a0b4ed7af69a558f841465e);
+            
+    
+            var popup_b5c545d6fc304120914f3485e7c17fda = L.popup({maxWidth: '300'});
+
+            
+                var html_696334ea29b04a57bf24b3ea20660d7a = $('<div id="html_696334ea29b04a57bf24b3ea20660d7a" style="width: 100.0%; height: 100.0%;">Four Craters Lava Field - 1501.0 meters</div>')[0];
+                popup_b5c545d6fc304120914f3485e7c17fda.setContent(html_696334ea29b04a57bf24b3ea20660d7a);
+            
+
+            marker_ca3d45a7f8b0484db96d31163b4fd652.bindPopup(popup_b5c545d6fc304120914f3485e7c17fda);
+
+            
+        
+    
+
+            var marker_7b8e0f703f7b4929b801d49736f8a047 = L.marker(
+                [42.9299011,-122.1210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_39762dd05c3b481e811a13c478d6ccbf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7b8e0f703f7b4929b801d49736f8a047.setIcon(icon_39762dd05c3b481e811a13c478d6ccbf);
+            
+    
+            var popup_9fb2b5d198c24f6b9110eaa2e462933c = L.popup({maxWidth: '300'});
+
+            
+                var html_a600886e527e4370a970f062d591ae2e = $('<div id="html_a600886e527e4370a970f062d591ae2e" style="width: 100.0%; height: 100.0%;">Crater Lake - 2487.0 meters</div>')[0];
+                popup_9fb2b5d198c24f6b9110eaa2e462933c.setContent(html_a600886e527e4370a970f062d591ae2e);
+            
+
+            marker_7b8e0f703f7b4929b801d49736f8a047.bindPopup(popup_9fb2b5d198c24f6b9110eaa2e462933c);
+
+            
+        
+    
+
+            var marker_ab3c6316a65d401392a5d34f2d2558d6 = L.marker(
+                [44.4299011,-110.6709976],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_a502bab4708d4784a11ef83575a1d192 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ab3c6316a65d401392a5d34f2d2558d6.setIcon(icon_a502bab4708d4784a11ef83575a1d192);
+            
+    
+            var popup_7315706f254046668344d43e01a8bb17 = L.popup({maxWidth: '300'});
+
+            
+                var html_e3a6154294e14849a7dea2f4dd76fd2c = $('<div id="html_e3a6154294e14849a7dea2f4dd76fd2c" style="width: 100.0%; height: 100.0%;">Yellowstone - 2805.0 meters</div>')[0];
+                popup_7315706f254046668344d43e01a8bb17.setContent(html_e3a6154294e14849a7dea2f4dd76fd2c);
+            
+
+            marker_ab3c6316a65d401392a5d34f2d2558d6.bindPopup(popup_7315706f254046668344d43e01a8bb17);
+
+            
+        
+    
+
+            var marker_766cd231d0eb46059272bf2642a006ce = L.marker(
+                [43.0998993,-118.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_46309e59a7ee476fa16bd7247241ad91 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_766cd231d0eb46059272bf2642a006ce.setIcon(icon_46309e59a7ee476fa16bd7247241ad91);
+            
+    
+            var popup_d65c7e0ba38b44b9a7c6efc65068c5ce = L.popup({maxWidth: '300'});
+
+            
+                var html_bb7b5fd018d34c4b84f97d1e584068ac = $('<div id="html_bb7b5fd018d34c4b84f97d1e584068ac" style="width: 100.0%; height: 100.0%;">Diamond Craters - 1435.0 meters</div>')[0];
+                popup_d65c7e0ba38b44b9a7c6efc65068c5ce.setContent(html_bb7b5fd018d34c4b84f97d1e584068ac);
+            
+
+            marker_766cd231d0eb46059272bf2642a006ce.bindPopup(popup_d65c7e0ba38b44b9a7c6efc65068c5ce);
+
+            
+        
+    
+
+            var marker_a921f0400a5b409780fc2d18ee7762e0 = L.marker(
+                [43.1498985,-117.4710007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_7176076704f443cdad9c37f0c0a34e1b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a921f0400a5b409780fc2d18ee7762e0.setIcon(icon_7176076704f443cdad9c37f0c0a34e1b);
+            
+    
+            var popup_7b67a78093b6455bbb8af7900fa9b963 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac816d19aceb4f6cbfd27d994f4e8354 = $('<div id="html_ac816d19aceb4f6cbfd27d994f4e8354" style="width: 100.0%; height: 100.0%;">Jordan Craters - 1473.0 meters</div>')[0];
+                popup_7b67a78093b6455bbb8af7900fa9b963.setContent(html_ac816d19aceb4f6cbfd27d994f4e8354);
+            
+
+            marker_a921f0400a5b409780fc2d18ee7762e0.bindPopup(popup_7b67a78093b6455bbb8af7900fa9b963);
+
+            
+        
+    
+
+            var marker_cd7a9c662d5149a39f56c05028162f18 = L.marker(
+                [42.9999008,-117.8010025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_0f7e8658631f471eb65d50ca09e9e1c0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cd7a9c662d5149a39f56c05028162f18.setIcon(icon_0f7e8658631f471eb65d50ca09e9e1c0);
+            
+    
+            var popup_e9e06a6c350b4ebcb3671e27914bb3b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_5f0565be0b914e069a72b42af730b5c9 = $('<div id="html_5f0565be0b914e069a72b42af730b5c9" style="width: 100.0%; height: 100.0%;">Saddle Butte - 1700.0 meters</div>')[0];
+                popup_e9e06a6c350b4ebcb3671e27914bb3b7.setContent(html_5f0565be0b914e069a72b42af730b5c9);
+            
+
+            marker_cd7a9c662d5149a39f56c05028162f18.bindPopup(popup_e9e06a6c350b4ebcb3671e27914bb3b7);
+
+            
+        
+    
+
+            var marker_2ee064e663294618b5a0874a186b0865 = L.marker(
+                [43.419899,-113.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_d90c41f66b22400dab928fd276808387 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2ee064e663294618b5a0874a186b0865.setIcon(icon_d90c41f66b22400dab928fd276808387);
+            
+    
+            var popup_05d96bb521b64a82a62c9ee1f09f370b = L.popup({maxWidth: '300'});
+
+            
+                var html_67f2882ad1c6441892d1fccb0f3c09b1 = $('<div id="html_67f2882ad1c6441892d1fccb0f3c09b1" style="width: 100.0%; height: 100.0%;">Craters of the Moon - 2005.0 meters</div>')[0];
+                popup_05d96bb521b64a82a62c9ee1f09f370b.setContent(html_67f2882ad1c6441892d1fccb0f3c09b1);
+            
+
+            marker_2ee064e663294618b5a0874a186b0865.bindPopup(popup_05d96bb521b64a82a62c9ee1f09f370b);
+
+            
+        
+    
+
+            var marker_ec0893bf902a40d38f3b3867e962d351 = L.marker(
+                [43.4999008,-112.4509964],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_32637bc1503b4d90a73f8d5c533f14d2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ec0893bf902a40d38f3b3867e962d351.setIcon(icon_32637bc1503b4d90a73f8d5c533f14d2);
+            
+    
+            var popup_6e31e3ad0fec4f00891ce7031b93a816 = L.popup({maxWidth: '300'});
+
+            
+                var html_48e11dd30bcf4bcd889c444e6f1c91bf = $('<div id="html_48e11dd30bcf4bcd889c444e6f1c91bf" style="width: 100.0%; height: 100.0%;">Hell&#39;s Half Acre - 1631.0 meters</div>')[0];
+                popup_6e31e3ad0fec4f00891ce7031b93a816.setContent(html_48e11dd30bcf4bcd889c444e6f1c91bf);
+            
+
+            marker_ec0893bf902a40d38f3b3867e962d351.bindPopup(popup_6e31e3ad0fec4f00891ce7031b93a816);
+
+            
+        
+    
+
+            var marker_154f40126bc8496cb674a95c04140bc1 = L.marker(
+                [43.1799011,-114.3509979],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_b3903ab91bc04d6a8102d543d16b6699 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_154f40126bc8496cb674a95c04140bc1.setIcon(icon_b3903ab91bc04d6a8102d543d16b6699);
+            
+    
+            var popup_4755b3e8cb8a43ab93a7d37dc10366f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ac27b0b49a7449198f152e3ad8c617b = $('<div id="html_8ac27b0b49a7449198f152e3ad8c617b" style="width: 100.0%; height: 100.0%;">Shoshone Lava Field - 1478.0 meters</div>')[0];
+                popup_4755b3e8cb8a43ab93a7d37dc10366f5.setContent(html_8ac27b0b49a7449198f152e3ad8c617b);
+            
+
+            marker_154f40126bc8496cb674a95c04140bc1.bindPopup(popup_4755b3e8cb8a43ab93a7d37dc10366f5);
+
+            
+        
+    
+
+            var marker_09b85466ec234e02b5c52ae2b800e1ea = L.marker(
+                [42.6058998,-117.5810013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_5fed9123fb32430db0cde86b0964736d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_09b85466ec234e02b5c52ae2b800e1ea.setIcon(icon_5fed9123fb32430db0cde86b0964736d);
+            
+    
+            var popup_efa13ecd93364978a087f7a78dc8a8f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c85b14d822546248c67e9fb0bccb4c9 = $('<div id="html_5c85b14d822546248c67e9fb0bccb4c9" style="width: 100.0%; height: 100.0%;">Jackies Butte - 1418.0 meters</div>')[0];
+                popup_efa13ecd93364978a087f7a78dc8a8f2.setContent(html_5c85b14d822546248c67e9fb0bccb4c9);
+            
+
+            marker_09b85466ec234e02b5c52ae2b800e1ea.bindPopup(popup_efa13ecd93364978a087f7a78dc8a8f2);
+
+            
+        
+    
+
+            var marker_920be99f1c974f8088498cba6a0bad15 = L.marker(
+                [41.5798988,-121.5709991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_2bda7a8f19a746c7a87855f65e753e53 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_920be99f1c974f8088498cba6a0bad15.setIcon(icon_2bda7a8f19a746c7a87855f65e753e53);
+            
+    
+            var popup_c80584b1d14a4127bc72aee85df6cc92 = L.popup({maxWidth: '300'});
+
+            
+                var html_40511298c21b4f08a4c0a8fd798ca402 = $('<div id="html_40511298c21b4f08a4c0a8fd798ca402" style="width: 100.0%; height: 100.0%;">Medicine Lake - 2412.0 meters</div>')[0];
+                popup_c80584b1d14a4127bc72aee85df6cc92.setContent(html_40511298c21b4f08a4c0a8fd798ca402);
+            
+
+            marker_920be99f1c974f8088498cba6a0bad15.bindPopup(popup_c80584b1d14a4127bc72aee85df6cc92);
+
+            
+        
+    
+
+            var marker_19f7b71aa7f7492fb6d33b9fa1aa1440 = L.marker(
+                [42.8799019,-113.2210007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_1f677362662c4402a02d38468b51c77d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_19f7b71aa7f7492fb6d33b9fa1aa1440.setIcon(icon_1f677362662c4402a02d38468b51c77d);
+            
+    
+            var popup_ba04f3dcccef4130aa4f1e55614595ee = L.popup({maxWidth: '300'});
+
+            
+                var html_799a91c104ae4ac29b3cae0de0345d01 = $('<div id="html_799a91c104ae4ac29b3cae0de0345d01" style="width: 100.0%; height: 100.0%;">Wapi Lava Field - 1604.0 meters</div>')[0];
+                popup_ba04f3dcccef4130aa4f1e55614595ee.setContent(html_799a91c104ae4ac29b3cae0de0345d01);
+            
+
+            marker_19f7b71aa7f7492fb6d33b9fa1aa1440.bindPopup(popup_ba04f3dcccef4130aa4f1e55614595ee);
+
+            
+        
+    
+
+            var marker_16be6c548ac34c45a1ed374ab155b804 = L.marker(
+                [41.419899,-122.2009964],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_8b94516d21214c0da86e6a463b52dda1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_16be6c548ac34c45a1ed374ab155b804.setIcon(icon_8b94516d21214c0da86e6a463b52dda1);
+            
+    
+            var popup_ae4b16d2430d44eba2743ce2a9cc21c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_83a9b5fe846647679cf71debc46cfb3a = $('<div id="html_83a9b5fe846647679cf71debc46cfb3a" style="width: 100.0%; height: 100.0%;">Shasta - 4317.0 meters</div>')[0];
+                popup_ae4b16d2430d44eba2743ce2a9cc21c4.setContent(html_83a9b5fe846647679cf71debc46cfb3a);
+            
+
+            marker_16be6c548ac34c45a1ed374ab155b804.bindPopup(popup_ae4b16d2430d44eba2743ce2a9cc21c4);
+
+            
+        
+    
+
+            var marker_9a74ce414ad040c6a2b49fffa289b48a = L.marker(
+                [41.1778984,-121.4410019],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_6b347b0a22494a109cdc865c8d489f58 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9a74ce414ad040c6a2b49fffa289b48a.setIcon(icon_6b347b0a22494a109cdc865c8d489f58);
+            
+    
+            var popup_67214c2919784e79a83de382b6b83197 = L.popup({maxWidth: '300'});
+
+            
+                var html_4ffcba451f22430c937727fe753a4963 = $('<div id="html_4ffcba451f22430c937727fe753a4963" style="width: 100.0%; height: 100.0%;">Brushy Butte - 1174.0 meters</div>')[0];
+                popup_67214c2919784e79a83de382b6b83197.setContent(html_4ffcba451f22430c937727fe753a4963);
+            
+
+            marker_9a74ce414ad040c6a2b49fffa289b48a.bindPopup(popup_67214c2919784e79a83de382b6b83197);
+
+            
+        
+    
+
+            var marker_052d219029004ae4973962ec5db7ee03 = L.marker(
+                [40.9548988,-121.3610001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_c908dbdc2ff5493c9a81a8d0fe0dbf08 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_052d219029004ae4973962ec5db7ee03.setIcon(icon_c908dbdc2ff5493c9a81a8d0fe0dbf08);
+            
+    
+            var popup_b5a38edce6f64b0e965c142d95be700d = L.popup({maxWidth: '300'});
+
+            
+                var html_cea6ebb63da6428bae2854f8b95db69b = $('<div id="html_cea6ebb63da6428bae2854f8b95db69b" style="width: 100.0%; height: 100.0%;">Big Cave - 1259.0 meters</div>')[0];
+                popup_b5a38edce6f64b0e965c142d95be700d.setContent(html_cea6ebb63da6428bae2854f8b95db69b);
+            
+
+            marker_052d219029004ae4973962ec5db7ee03.bindPopup(popup_b5a38edce6f64b0e965c142d95be700d);
+
+            
+        
+    
+
+            var marker_ffc798c24b224c649e7bc371b96a937f = L.marker(
+                [40.7798996,-121.6009979],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_5c22e3b94cb94c55aad75522a749b1bd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ffc798c24b224c649e7bc371b96a937f.setIcon(icon_5c22e3b94cb94c55aad75522a749b1bd);
+            
+    
+            var popup_03a44fb8b2354b939861e2f94c5c7b7e = L.popup({maxWidth: '300'});
+
+            
+                var html_b29c40d49b464cc782c349d09a68700d = $('<div id="html_b29c40d49b464cc782c349d09a68700d" style="width: 100.0%; height: 100.0%;">Twin Buttes - 1631.0 meters</div>')[0];
+                popup_03a44fb8b2354b939861e2f94c5c7b7e.setContent(html_b29c40d49b464cc782c349d09a68700d);
+            
+
+            marker_ffc798c24b224c649e7bc371b96a937f.bindPopup(popup_03a44fb8b2354b939861e2f94c5c7b7e);
+
+            
+        
+    
+
+            var marker_a35d11b8427b4d36a5b1072c6fccb3df = L.marker(
+                [40.6799011,-121.5510025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_ff3564d72d774963841c70e83950246e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a35d11b8427b4d36a5b1072c6fccb3df.setIcon(icon_ff3564d72d774963841c70e83950246e);
+            
+    
+            var popup_f9adb21b3ba14957a70db9e189dcd0b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_514c798d70f14b08a4d88c05995ff2a2 = $('<div id="html_514c798d70f14b08a4d88c05995ff2a2" style="width: 100.0%; height: 100.0%;">Tumble Buttes - 2191.0 meters</div>')[0];
+                popup_f9adb21b3ba14957a70db9e189dcd0b2.setContent(html_514c798d70f14b08a4d88c05995ff2a2);
+            
+
+            marker_a35d11b8427b4d36a5b1072c6fccb3df.bindPopup(popup_f9adb21b3ba14957a70db9e189dcd0b2);
+
+            
+        
+    
+
+            var marker_4a696e4b67cc468d8def0872cf0d1ef2 = L.marker(
+                [40.6299019,-120.8310013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_9f4f8178dc7e442cbfad67ffa39d5aaa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a696e4b67cc468d8def0872cf0d1ef2.setIcon(icon_9f4f8178dc7e442cbfad67ffa39d5aaa);
+            
+    
+            var popup_f14dcc7d5165492e8398830af726ff00 = L.popup({maxWidth: '300'});
+
+            
+                var html_b739b8ec341b4b62b14de566975a046e = $('<div id="html_b739b8ec341b4b62b14de566975a046e" style="width: 100.0%; height: 100.0%;">Eagle Lake Field - 1652.0 meters</div>')[0];
+                popup_f14dcc7d5165492e8398830af726ff00.setContent(html_b739b8ec341b4b62b14de566975a046e);
+            
+
+            marker_4a696e4b67cc468d8def0872cf0d1ef2.bindPopup(popup_f14dcc7d5165492e8398830af726ff00);
+
+            
+        
+    
+
+            var marker_cb6592fa2796441085711e12c61e0bee = L.marker(
+                [40.4919014,-121.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_d86c8ee6f935480284ed1426f8b90c59 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cb6592fa2796441085711e12c61e0bee.setIcon(icon_d86c8ee6f935480284ed1426f8b90c59);
+            
+    
+            var popup_c9b7c666ad554f7aa03b19fef8cbd0aa = L.popup({maxWidth: '300'});
+
+            
+                var html_952b5d8aaf844fb58e52a8dd8f40f72f = $('<div id="html_952b5d8aaf844fb58e52a8dd8f40f72f" style="width: 100.0%; height: 100.0%;">Lassen Volc Center - 3187.0 meters</div>')[0];
+                popup_c9b7c666ad554f7aa03b19fef8cbd0aa.setContent(html_952b5d8aaf844fb58e52a8dd8f40f72f);
+            
+
+            marker_cb6592fa2796441085711e12c61e0bee.bindPopup(popup_c9b7c666ad554f7aa03b19fef8cbd0aa);
+
+            
+        
+    
+
+            var marker_04c9fa036b2a4d4f9a49a2df6bc5a2f0 = L.marker(
+                [38.9698982,-122.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_8ac4480effff43d285991dc589e41fa3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_04c9fa036b2a4d4f9a49a2df6bc5a2f0.setIcon(icon_8ac4480effff43d285991dc589e41fa3);
+            
+    
+            var popup_71052f9f900749469acc5a861773a7f8 = L.popup({maxWidth: '300'});
+
+            
+                var html_f7306ffcaa7c4c95872cac6a3635b257 = $('<div id="html_f7306ffcaa7c4c95872cac6a3635b257" style="width: 100.0%; height: 100.0%;">Clear Lake - 1439.0 meters</div>')[0];
+                popup_71052f9f900749469acc5a861773a7f8.setContent(html_f7306ffcaa7c4c95872cac6a3635b257);
+            
+
+            marker_04c9fa036b2a4d4f9a49a2df6bc5a2f0.bindPopup(popup_71052f9f900749469acc5a861773a7f8);
+
+            
+        
+    
+
+            var marker_5edb170f71df4bb0bdd813e915643cd1 = L.marker(
+                [39.3749008,-119.7210007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_8ca41703ebae4bf7867e70b3ad56375d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5edb170f71df4bb0bdd813e915643cd1.setIcon(icon_8ca41703ebae4bf7867e70b3ad56375d);
+            
+    
+            var popup_27199e8bf1144b73877fefff9b1c59d4 = L.popup({maxWidth: '300'});
+
+            
+                var html_d48e5a5856c64d66af1b1fcb41056d4a = $('<div id="html_d48e5a5856c64d66af1b1fcb41056d4a" style="width: 100.0%; height: 100.0%;">Steamboat Springs - 1415.0 meters</div>')[0];
+                popup_27199e8bf1144b73877fefff9b1c59d4.setContent(html_d48e5a5856c64d66af1b1fcb41056d4a);
+            
+
+            marker_5edb170f71df4bb0bdd813e915643cd1.bindPopup(popup_27199e8bf1144b73877fefff9b1c59d4);
+
+            
+        
+    
+
+            var marker_f56f87e85fcf435fbffa08cd3f960620 = L.marker(
+                [39.6500015,-107.0309982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_012d922f645c403a9f2b1f8da4dbd17d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f56f87e85fcf435fbffa08cd3f960620.setIcon(icon_012d922f645c403a9f2b1f8da4dbd17d);
+            
+    
+            var popup_c3c175a7a8d84cfab03a565e64dcde43 = L.popup({maxWidth: '300'});
+
+            
+                var html_fee307f79f694cc4a0814d8183afcbef = $('<div id="html_fee307f79f694cc4a0814d8183afcbef" style="width: 100.0%; height: 100.0%;">Dotsero - 2230.0 meters</div>')[0];
+                popup_c3c175a7a8d84cfab03a565e64dcde43.setContent(html_fee307f79f694cc4a0814d8183afcbef);
+            
+
+            marker_f56f87e85fcf435fbffa08cd3f960620.bindPopup(popup_c3c175a7a8d84cfab03a565e64dcde43);
+
+            
+        
+    
+
+            var marker_3743a3db67c44d3fae7afb07d69c6785 = L.marker(
+                [37.9999008,-119.0309982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_8ef4a322842743a6a21aa6b3e2f113e3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3743a3db67c44d3fae7afb07d69c6785.setIcon(icon_8ef4a322842743a6a21aa6b3e2f113e3);
+            
+    
+            var popup_f3723bf6940a42c9895af4066feabd39 = L.popup({maxWidth: '300'});
+
+            
+                var html_14077a464e674ec799e2b55121f4c75c = $('<div id="html_14077a464e674ec799e2b55121f4c75c" style="width: 100.0%; height: 100.0%;">Mono Lake Volc Field - 2121.0 meters</div>')[0];
+                popup_f3723bf6940a42c9895af4066feabd39.setContent(html_14077a464e674ec799e2b55121f4c75c);
+            
+
+            marker_3743a3db67c44d3fae7afb07d69c6785.bindPopup(popup_f3723bf6940a42c9895af4066feabd39);
+
+            
+        
+    
+
+            var marker_52bf59efdb6345f09aa9af9f4da7afe4 = L.marker(
+                [38.9700012,-112.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_32bcb6a2212b4d9c9fab1884f18de81c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_52bf59efdb6345f09aa9af9f4da7afe4.setIcon(icon_32bcb6a2212b4d9c9fab1884f18de81c);
+            
+    
+            var popup_524252ec9616491aa94f473716ec1da6 = L.popup({maxWidth: '300'});
+
+            
+                var html_8255b88cb3034867be779155cccd6de9 = $('<div id="html_8255b88cb3034867be779155cccd6de9" style="width: 100.0%; height: 100.0%;">Black Rock Desert - 1800.0 meters</div>')[0];
+                popup_524252ec9616491aa94f473716ec1da6.setContent(html_8255b88cb3034867be779155cccd6de9);
+            
+
+            marker_52bf59efdb6345f09aa9af9f4da7afe4.bindPopup(popup_524252ec9616491aa94f473716ec1da6);
+
+            
+        
+    
+
+            var marker_2092b10a8cba478bbd954ed35fad71d0 = L.marker(
+                [37.8799019,-119.0009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_c14ab22cd8444328a7a3e67603a5076b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2092b10a8cba478bbd954ed35fad71d0.setIcon(icon_c14ab22cd8444328a7a3e67603a5076b);
+            
+    
+            var popup_239435dcfa354ed482172998caa23e07 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ba3df2acb964b6b90bbf876def28f93 = $('<div id="html_8ba3df2acb964b6b90bbf876def28f93" style="width: 100.0%; height: 100.0%;">Mono Craters - 2796.0 meters</div>')[0];
+                popup_239435dcfa354ed482172998caa23e07.setContent(html_8ba3df2acb964b6b90bbf876def28f93);
+            
+
+            marker_2092b10a8cba478bbd954ed35fad71d0.bindPopup(popup_239435dcfa354ed482172998caa23e07);
+
+            
+        
+    
+
+            var marker_0918b3f59a8747ec9f9c07a053bc9b6d = L.marker(
+                [37.6918983,-119.0210037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_35074dc06f9043d1b53258b073316c2d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0918b3f59a8747ec9f9c07a053bc9b6d.setIcon(icon_35074dc06f9043d1b53258b073316c2d);
+            
+    
+            var popup_d1f61c9d65884562a016d44323a3ee6e = L.popup({maxWidth: '300'});
+
+            
+                var html_6c90021fc6bb4cf08d13a42af60aa387 = $('<div id="html_6c90021fc6bb4cf08d13a42af60aa387" style="width: 100.0%; height: 100.0%;">Inyo Craters - 2629.0 meters</div>')[0];
+                popup_d1f61c9d65884562a016d44323a3ee6e.setContent(html_6c90021fc6bb4cf08d13a42af60aa387);
+            
+
+            marker_0918b3f59a8747ec9f9c07a053bc9b6d.bindPopup(popup_d1f61c9d65884562a016d44323a3ee6e);
+
+            
+        
+    
+
+            var marker_3f3c4b9d0cac41f99c190d991ba32165 = L.marker(
+                [37.6999016,-118.8710022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_48e0101e814f46f29759ab7b538e33c7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3f3c4b9d0cac41f99c190d991ba32165.setIcon(icon_48e0101e814f46f29759ab7b538e33c7);
+            
+    
+            var popup_c47aa3c6350c495cac31f681a924c145 = L.popup({maxWidth: '300'});
+
+            
+                var html_38c4e9b1f3cf4eaabaf8d6691f9eb88b = $('<div id="html_38c4e9b1f3cf4eaabaf8d6691f9eb88b" style="width: 100.0%; height: 100.0%;">Long Valley - 3390.0 meters</div>')[0];
+                popup_c47aa3c6350c495cac31f681a924c145.setContent(html_38c4e9b1f3cf4eaabaf8d6691f9eb88b);
+            
+
+            marker_3f3c4b9d0cac41f99c190d991ba32165.bindPopup(popup_c47aa3c6350c495cac31f681a924c145);
+
+            
+        
+    
+
+            var marker_2d43c5347b2b47b1968f5aa4960235bd = L.marker(
+                [37.5798988,-119.0510025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_8df2e8e6e83a4460aa2b4d0f4ca73466 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2d43c5347b2b47b1968f5aa4960235bd.setIcon(icon_8df2e8e6e83a4460aa2b4d0f4ca73466);
+            
+    
+            var popup_e078c13ebb78425ebc32a9e831cf2e7a = L.popup({maxWidth: '300'});
+
+            
+                var html_7bde772a38b744a09c6d2f2bd30d86af = $('<div id="html_7bde772a38b744a09c6d2f2bd30d86af" style="width: 100.0%; height: 100.0%;">Red Cones - 2748.0 meters</div>')[0];
+                popup_e078c13ebb78425ebc32a9e831cf2e7a.setContent(html_7bde772a38b744a09c6d2f2bd30d86af);
+            
+
+            marker_2d43c5347b2b47b1968f5aa4960235bd.bindPopup(popup_e078c13ebb78425ebc32a9e831cf2e7a);
+
+            
+        
+    
+
+            var marker_104b9d0d38a9483084d3c7c51c1c3198 = L.marker(
+                [37.0199013,-117.4509964],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_1b631c6792194a20a46624490e23b240 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_104b9d0d38a9483084d3c7c51c1c3198.setIcon(icon_1b631c6792194a20a46624490e23b240);
+            
+    
+            var popup_52a5c86ba001409886c2bcef2dcb190e = L.popup({maxWidth: '300'});
+
+            
+                var html_f3adfd0b83554c6bb5846b843eec7a5c = $('<div id="html_f3adfd0b83554c6bb5846b843eec7a5c" style="width: 100.0%; height: 100.0%;">Ubehebe Craters - 752.0 meters</div>')[0];
+                popup_52a5c86ba001409886c2bcef2dcb190e.setContent(html_f3adfd0b83554c6bb5846b843eec7a5c);
+            
+
+            marker_104b9d0d38a9483084d3c7c51c1c3198.bindPopup(popup_52a5c86ba001409886c2bcef2dcb190e);
+
+            
+        
+    
+
+            var marker_a67912a1f6ec4d0cad41c89402724260 = L.marker(
+                [37.5800018,-112.6709976],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_2a29cb75357f466aaa1b8611ba60d7af = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a67912a1f6ec4d0cad41c89402724260.setIcon(icon_2a29cb75357f466aaa1b8611ba60d7af);
+            
+    
+            var popup_1c6cb78399d4404abc85d1221910dbae = L.popup({maxWidth: '300'});
+
+            
+                var html_67f2ef1fc6af4b5eb85878249573a54f = $('<div id="html_67f2ef1fc6af4b5eb85878249573a54f" style="width: 100.0%; height: 100.0%;">Markagunt Plateau - 2840.0 meters</div>')[0];
+                popup_1c6cb78399d4404abc85d1221910dbae.setContent(html_67f2ef1fc6af4b5eb85878249573a54f);
+            
+
+            marker_a67912a1f6ec4d0cad41c89402724260.bindPopup(popup_1c6cb78399d4404abc85d1221910dbae);
+
+            
+        
+    
+
+            var marker_ff479ef65da44f7689a07a7747520b05 = L.marker(
+                [37.257,-113.6210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_e4883837a6bf4d8884fd6eeb550a1a4e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ff479ef65da44f7689a07a7747520b05.setIcon(icon_e4883837a6bf4d8884fd6eeb550a1a4e);
+            
+    
+            var popup_33c8c3b79e0d4aa2a7df6b6b640eca39 = L.popup({maxWidth: '300'});
+
+            
+                var html_e46bf4b1253b4cf793d09fdcf7e26b64 = $('<div id="html_e46bf4b1253b4cf793d09fdcf7e26b64" style="width: 100.0%; height: 100.0%;">Santa Clara - 1465.0 meters</div>')[0];
+                popup_33c8c3b79e0d4aa2a7df6b6b640eca39.setContent(html_e46bf4b1253b4cf793d09fdcf7e26b64);
+            
+
+            marker_ff479ef65da44f7689a07a7747520b05.bindPopup(popup_33c8c3b79e0d4aa2a7df6b6b640eca39);
+
+            
+        
+    
+
+            var marker_c7239a54328647adb0692c1fcdb12f8b = L.marker(
+                [37.3279991,-112.401001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_02cd43414bf34358a2df20cfce86d656 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c7239a54328647adb0692c1fcdb12f8b.setIcon(icon_02cd43414bf34358a2df20cfce86d656);
+            
+    
+            var popup_ae012a92c544406ebc999f371945e83b = L.popup({maxWidth: '300'});
+
+            
+                var html_a770335dd3224705a8a5c093921974b9 = $('<div id="html_a770335dd3224705a8a5c093921974b9" style="width: 100.0%; height: 100.0%;">Bald Knoll - 2135.0 meters</div>')[0];
+                popup_ae012a92c544406ebc999f371945e83b.setContent(html_a770335dd3224705a8a5c093921974b9);
+            
+
+            marker_c7239a54328647adb0692c1fcdb12f8b.bindPopup(popup_ae012a92c544406ebc999f371945e83b);
+
+            
+        
+    
+
+            var marker_2cf0c78c8eea4b8d8c25a09b8e34c3f7 = L.marker(
+                [36.3578987,-118.3209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_0339ba8c9c3c4969ab920e8eeb3d474a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2cf0c78c8eea4b8d8c25a09b8e34c3f7.setIcon(icon_0339ba8c9c3c4969ab920e8eeb3d474a);
+            
+    
+            var popup_6a79b9f3c8d54699891bf5aef0488734 = L.popup({maxWidth: '300'});
+
+            
+                var html_ffc2067ebf2747bca21ebbe9439ea747 = $('<div id="html_ffc2067ebf2747bca21ebbe9439ea747" style="width: 100.0%; height: 100.0%;">Golden Trout Creek - 2886.0 meters</div>')[0];
+                popup_6a79b9f3c8d54699891bf5aef0488734.setContent(html_ffc2067ebf2747bca21ebbe9439ea747);
+            
+
+            marker_2cf0c78c8eea4b8d8c25a09b8e34c3f7.bindPopup(popup_6a79b9f3c8d54699891bf5aef0488734);
+
+            
+        
+    
+
+            var marker_d7dab7f8842d4014a7a27bb18cba4659 = L.marker(
+                [36.0298996,-117.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_ad24a371939149eeb7c03024f3c986c2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d7dab7f8842d4014a7a27bb18cba4659.setIcon(icon_ad24a371939149eeb7c03024f3c986c2);
+            
+    
+            var popup_8d7c730da71e4e419d10216e4ebe35d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_7e5026d840414f23a6978a4a904fc15e = $('<div id="html_7e5026d840414f23a6978a4a904fc15e" style="width: 100.0%; height: 100.0%;">Coso Volc Field - 2400.0 meters</div>')[0];
+                popup_8d7c730da71e4e419d10216e4ebe35d7.setContent(html_7e5026d840414f23a6978a4a904fc15e);
+            
+
+            marker_d7dab7f8842d4014a7a27bb18cba4659.bindPopup(popup_8d7c730da71e4e419d10216e4ebe35d7);
+
+            
+        
+    
+
+            var marker_6e2b97e9d5044df9b9c9835c4f0f22c1 = L.marker(
+                [36.3800011,-113.1309967],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_50c875b4d13e430a98c8849502a5225d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6e2b97e9d5044df9b9c9835c4f0f22c1.setIcon(icon_50c875b4d13e430a98c8849502a5225d);
+            
+    
+            var popup_2f7c7ae8b3d24421b353405449a1bdbf = L.popup({maxWidth: '300'});
+
+            
+                var html_e895121c54254a499d1cd38076eaaf9a = $('<div id="html_e895121c54254a499d1cd38076eaaf9a" style="width: 100.0%; height: 100.0%;">Uinkaret Field - 1555.0 meters</div>')[0];
+                popup_2f7c7ae8b3d24421b353405449a1bdbf.setContent(html_e895121c54254a499d1cd38076eaaf9a);
+            
+
+            marker_6e2b97e9d5044df9b9c9835c4f0f22c1.bindPopup(popup_2f7c7ae8b3d24421b353405449a1bdbf);
+
+            
+        
+    
+
+            var marker_f100f4f3d856460f88a164f784bc7b38 = L.marker(
+                [34.75,-116.6210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_f42a6a8d5046493d86edab13bf59c273 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f100f4f3d856460f88a164f784bc7b38.setIcon(icon_f42a6a8d5046493d86edab13bf59c273);
+            
+    
+            var popup_fce811cf695244f1aef74d6e8144921f = L.popup({maxWidth: '300'});
+
+            
+                var html_33aa9bde5d9549b38c31f88b24560783 = $('<div id="html_33aa9bde5d9549b38c31f88b24560783" style="width: 100.0%; height: 100.0%;">Lavic Lake - 1495.0 meters</div>')[0];
+                popup_fce811cf695244f1aef74d6e8144921f.setContent(html_33aa9bde5d9549b38c31f88b24560783);
+            
+
+            marker_f100f4f3d856460f88a164f784bc7b38.bindPopup(popup_fce811cf695244f1aef74d6e8144921f);
+
+            
+        
+    
+
+            var marker_56a0afa77466407f9631ce4f3096d8c0 = L.marker(
+                [35.8699989,-106.5709991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_258232e9a80145af8d4a0214d6ef3238 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_56a0afa77466407f9631ce4f3096d8c0.setIcon(icon_258232e9a80145af8d4a0214d6ef3238);
+            
+    
+            var popup_9ecc52af4fae4e5cae2e046f4df94869 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5395f98c72a4626bcfaebc97156e54d = $('<div id="html_b5395f98c72a4626bcfaebc97156e54d" style="width: 100.0%; height: 100.0%;">Valles Caldera - 3430.0 meters</div>')[0];
+                popup_9ecc52af4fae4e5cae2e046f4df94869.setContent(html_b5395f98c72a4626bcfaebc97156e54d);
+            
+
+            marker_56a0afa77466407f9631ce4f3096d8c0.bindPopup(popup_9ecc52af4fae4e5cae2e046f4df94869);
+
+            
+        
+    
+
+            var marker_0b070205a81941078edd7bba9d828b6a = L.marker(
+                [35.3699989,-111.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_8fa5beeb67d24ad39cf5b761726b4801 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0b070205a81941078edd7bba9d828b6a.setIcon(icon_8fa5beeb67d24ad39cf5b761726b4801);
+            
+    
+            var popup_efa78946fa4b4698965de5c7c729885e = L.popup({maxWidth: '300'});
+
+            
+                var html_cd33caf03d1a45859bb9720b0b22c02e = $('<div id="html_cd33caf03d1a45859bb9720b0b22c02e" style="width: 100.0%; height: 100.0%;">Sunset Crater - 2447.0 meters</div>')[0];
+                popup_efa78946fa4b4698965de5c7c729885e.setContent(html_cd33caf03d1a45859bb9720b0b22c02e);
+            
+
+            marker_0b070205a81941078edd7bba9d828b6a.bindPopup(popup_efa78946fa4b4698965de5c7c729885e);
+
+            
+        
+    
+
+            var marker_d5bc18ccc96442219720d66f7ded4190 = L.marker(
+                [34.5499992,-115.7809982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_6509e89941454755bb8731548eacd5b2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d5bc18ccc96442219720d66f7ded4190.setIcon(icon_6509e89941454755bb8731548eacd5b2);
+            
+    
+            var popup_e59a795ae060403a8eea0b75546e5597 = L.popup({maxWidth: '300'});
+
+            
+                var html_4fce75349ee54f9aade29273f4effcf0 = $('<div id="html_4fce75349ee54f9aade29273f4effcf0" style="width: 100.0%; height: 100.0%;">Amboy - 288.0 meters</div>')[0];
+                popup_e59a795ae060403a8eea0b75546e5597.setContent(html_4fce75349ee54f9aade29273f4effcf0);
+            
+
+            marker_d5bc18ccc96442219720d66f7ded4190.bindPopup(popup_e59a795ae060403a8eea0b75546e5597);
+
+            
+        
+    
+
+            var marker_dd593e0ab1f84cbe86a810118a7083d9 = L.marker(
+                [34.7999992,-108.0009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_19b8c4a9689f4b07a1317f81e0eb0cd9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dd593e0ab1f84cbe86a810118a7083d9.setIcon(icon_19b8c4a9689f4b07a1317f81e0eb0cd9);
+            
+    
+            var popup_9b9e3f174ba44f8cb5b5bcfe3424fda8 = L.popup({maxWidth: '300'});
+
+            
+                var html_de79bb5c8f0f43a59a44dade6d1cb63c = $('<div id="html_de79bb5c8f0f43a59a44dade6d1cb63c" style="width: 100.0%; height: 100.0%;">Zuni-Bandera - 2550.0 meters</div>')[0];
+                popup_9b9e3f174ba44f8cb5b5bcfe3424fda8.setContent(html_de79bb5c8f0f43a59a44dade6d1cb63c);
+            
+
+            marker_dd593e0ab1f84cbe86a810118a7083d9.bindPopup(popup_9b9e3f174ba44f8cb5b5bcfe3424fda8);
+
+            
+        
+    
+
+            var marker_2c3c04294e6745398229c627f0654233 = L.marker(
+                [33.7801018,-105.9309998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+            
+    
+
+                var icon_5bebd6b086b840a0afb4f73feaa9c5d2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2c3c04294e6745398229c627f0654233.setIcon(icon_5bebd6b086b840a0afb4f73feaa9c5d2);
+            
+    
+            var popup_b5b6b581db264851bccd16c82a51e6bc = L.popup({maxWidth: '300'});
+
+            
+                var html_05c2eb77f3194fe4a04c1afcb7f32e85 = $('<div id="html_05c2eb77f3194fe4a04c1afcb7f32e85" style="width: 100.0%; height: 100.0%;">Carrizozo - 1731.0 meters</div>')[0];
+                popup_b5b6b581db264851bccd16c82a51e6bc.setContent(html_05c2eb77f3194fe4a04c1afcb7f32e85);
+            
+
+            marker_2c3c04294e6745398229c627f0654233.bindPopup(popup_b5b6b581db264851bccd16c82a51e6bc);
+
+            
+        
+    
+            var feature_group_88fe5666df704cc58a58c75377059896 = L.featureGroup(
+                ).addTo(map_ac70dc09fbd24727acd0de51614a2f13);
+        
+</script>
