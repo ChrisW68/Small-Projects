@@ -6,7 +6,7 @@ def main():
     word = input("Enter a word you want definition on: ").lower()
     from difflib import SequenceMatcher
 
-    def definepip_of_word (w):
+    def define_of_word (w):
         if w in data:
             return data[w]
         elif len(get_close_matches(w, data.keys()))>0:
