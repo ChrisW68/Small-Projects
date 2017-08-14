@@ -1,0 +1,28 @@
+﻿VOLCANX020,NUMBER,NAME,LOCATION,STATUS,ELEV,TYPE,TIMEFRAME,LAT,LON
+509,1201-01=,Baker,US-Washington,Historical,3285,Stratovolcanoes,D3,48.7767982,-121.810997
+511,1201-02-,Glacier Peak,US-Washington,Tephrochronology,3213,Stratovolcano,D4,48.1118011,-121.1110001
+513,1201-03-,Rainier,US-Washington,Dendrochronology,4392,Stratovolcano,D3,46.8698006,-121.7509995
+515,1201-05-,St. Helens,US-Washington,Historical,2549,Stratovolcano,D1,46.1997986,-122.1809998
+516,1201-04-,Adams,US-Washington,Tephrochronology,3742,Stratovolcano,D6,46.2057991,-121.4909973
+517,1201-06-,West Crater,US-Washington,Radiocarbon,1329,Volcanic field,D7,45.8797989,-122.0810013
+518,1201-07-,Indian Heaven,US-Washington,Radiocarbon,1806,Shield volcanoes,D7,45.9297981,-121.8209991
+519,1202-01-,Hood,US-Oregon,Historical,3426,Stratovolcano,D3,45.3737984,-121.6910019
+521,1202-02-,Jefferson,US-Oregon,Varve Count,3199,Stratovolcano,D6,44.6917992,-121.8010025
+522,1202-03-,Blue Lake Crater,US-Oregon,Radiocarbon,1230,Maar,D7,44.4197998,-121.7710037
+523,1202-04-,Sand Mountain Field,US-Oregon,Radiocarbon,1664,Cinder cones,D7,44.3797989,-121.9309998
+524,1202-05-,Washington,US-Oregon,Radiocarbon,2376,Shield volcano,D6,44.3317986,-121.8310013
+525,1202-06-,Belknap,US-Oregon,Radiocarbon,2095,Shield volcanoes,D6,44.2848015,-121.8410034
+526,1202-07-,North Sister Field,US-Oregon,Radiocarbon,3074,Complex volcano,D6,44.1697998,-121.7710037
+527,1202-08-,South Sister,US-Oregon,Radiocarbon,3157,Complex volcano,D7,44.0998001,-121.7710037
+528,1202-09-,Bachelor,US-Oregon,Tephrochronology,2763,Stratovolcano,D7,43.9788017,-121.6809998
+531,1202-11-,Newberry Volcano,US-Oregon,Radiocarbon,2434,Shield volcano,D6,43.7218018,-121.2210007
+532,1202-10-,Davis Lake,US-Oregon,Radiocarbon,2163,Volcanic field,D7,43.5698013,-121.8209991
+534,1202-12-,Devils Garden,US-Oregon,Holocene?,1698,Volcanic field,?,43.5119019,-120.8610001
+535,1202-15-,Cinnamon Butte,US-Oregon,Holocene?,1956,Cinder cones,?,43.240799,-122.1009979
+536,1202-13-,Squaw Ridge Lava Field,US-Oregon,Holocene?,1711,Volcanic field,?,43.4719009,-120.7509995
+537,1202-14-,Four Craters Lava Field,US-Oregon,Holocene?,1501,Volcanic field,?,43.3609009,-120.6610031
+538,1202-16-,Crater Lake,US-Oregon,Radiocarbon,2487,Caldera,D7,42.9299011,-122.1210022
+541,1202-17-,Diamond Craters,US-Oregon,Holocene?,1435,Volcanic field,?,43.0998993,-118.7509995
+542,1202-19-,Jordan Craters,US-Oregon,Radiocarbon,1473,Volcanic field,D7,43.1498985,-117.4710007
+543,1202-18-,Saddle Butte,US-Oregon,Holocene?,1700,Volcanic field,?,42.9999008,-117.8010025
+547,1202-20-,Jackies Butte,US-Oregon,Holocene?,1418,Volcanic field,?,42.6058998,-117.5810013

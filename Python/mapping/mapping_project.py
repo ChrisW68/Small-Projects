@@ -1,7 +1,7 @@
 import folium
 import pandas
 
-data = pandas.read_csv("Volcanoe.txt")
+data = pandas.read_csv("Oregon-Volcanoe.csv")
 #Create a Python list for the latitude variables from the data
 lat = list(data["LAT"])
 #Creates a Python list for the longitude variable list from data
@@ -17,8 +17,6 @@ def color_icon(elevation):
     else:
         return 'red'
 
-
-
 #Creates a map object Places Portland, OR at center of map with 10x zoom
 map = folium.Map(location=[45.410088, -122.639920],zoom_start=6, tiles="Mapbox Bright")
 
@@ -33,8 +31,9 @@ for lt, ln, el, nm in zip(lat, lon, elev, name):
 fgp = folium.FeatureGroup(name="Population")
 
 fgp.add_child(folium.GeoJson(data=open('world.json', 'r', encoding='utf-8-sig'),
-                            style_function=lambda x: {'fillColor':'yellow' if x ['properties']['POP2005'] < 10000000
-                            else 'orange' if 10000000 <= x ['properties']['POP2005'] < 2000000 else 'reds'}))
+                            style_function=lambda x: {'fillColor':'yellow' if x ['properties']['POP2005'] < 9999999
+                            else 'blue' if 10000000 <= x ['properties']['POP2005'] < 100000000
+                            else 'orange' }))
 
 #Ask the user to input what name to call the file
 map_name = input("What name would you like to save the map to?: ")
