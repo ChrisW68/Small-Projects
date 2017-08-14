@@ -1,7 +1,7 @@
 import folium
-import pandas
+import pandas as pd
 
-data = pandas.read_csv("Oregon-Volcanoe.csv")
+data = pd.read_csv("Volcanoe.txt")
 #Create a Python list for the latitude variables from the data
 lat = list(data["LAT"])
 #Creates a Python list for the longitude variable list from data
@@ -18,15 +18,16 @@ def color_icon(elevation):
         return 'red'
 
 #Creates a map object Places Portland, OR at center of map with 10x zoom
-map = folium.Map(location=[45.410088, -122.639920],zoom_start=6, tiles="Mapbox Bright")
+map = folium.Map(location=[45.410088, -122.639920],zoom_start=4, tiles="Mapbox Bright")
 
-#Makes a child Feature Group for all of the markers and calls it "My Map"
-fgv = folium.FeatureGroup(name="Volcanoes")
+#Makes a child Feature Group for all of the markers and calls it "fgv"
+fgv = folium.FeatureGroup(name="US volcanoes")
 
 #Iterating with for loop with list of coordinates to place markers
 for lt, ln, el, nm in zip(lat, lon, elev, name):
     #The popup needs the variable to be a string, so str must be associated with el to convert to string
     fgv.add_child(folium.CircleMarker(location=[lt, ln], radius = 6, popup=nm+" - "+str(el)+" meters", fill_color=color_icon(el),color='grey', fill_opacity=0.6))
+
 
 fgp = folium.FeatureGroup(name="Population")
 
