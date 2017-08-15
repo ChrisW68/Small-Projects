@@ -22,7 +22,7 @@ while True:
                     file.write(redirect+" "+ website+"\n")
     else:
         #Open hosts_temp variable in a read and write in the file
-        with open(hosts_temp, 'r+') as file:
+        with open(hosts_path, 'r+') as file:
             content=file.readlines()
             file.seek(0)
             for line in content:
