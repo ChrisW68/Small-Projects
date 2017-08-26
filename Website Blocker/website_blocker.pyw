@@ -6,7 +6,7 @@ from datetime import datetime as dt
 hosts_temp="hosts"
 hosts_path=r"C:\Windows\System32\drivers\etc\hosts"
 redirect="127.0.0.1"
-website_list=["www.facebook.com","facebook.com","www.amazon.com", "amazon.com"]
+website_list=[""]
 
 while True:
     #if current time is between 8 a.m. to 12:00p.m. and 1:00p.m. to 5:00 p.m. then it will excute
