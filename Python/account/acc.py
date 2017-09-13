@@ -16,15 +16,16 @@ class Account:
             file.write(str(self.balance))
 
 class Checking(Account):
-
+    #Constructor of a class
     def _init__(self, filepath, fee):
         Account.__init__(self, filepath)
         self.fee=fee
 
+    #Class method
     def transfer(self,amount):
         self.balance=self.balance - amount - self.fee
 
-
+#Instantiation of the Class
 checking=Checking("balance.txt", 1)
 checking.transfer(105)
 print(checking.balance)
