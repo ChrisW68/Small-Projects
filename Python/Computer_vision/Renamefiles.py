@@ -4,7 +4,7 @@ import shutil
 
 path = '.'
 filenames=os.listdir('.')
-print(filenames)
+
 
 for filename in filenames:
     just_filename, extension = os.path.splitext(filename)
