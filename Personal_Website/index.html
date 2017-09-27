@@ -23,7 +23,11 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
-
+    <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+    <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+    <link href="jQueryAssets/jquery.ui.slider.min.css" rel="stylesheet" type="text/css">
+  <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+  <script src="jQueryAssets/jquery.ui-1.10.4.slider.min.js"></script>
   </head>
 
   <body id="page-top">
@@ -41,7 +45,10 @@
               <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Experience</a>
+              <a class="nav-link js-scroll-trigger" href="#resumetimeline">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -82,8 +89,20 @@ I enjoy working on my house (always making it just a little more energy efficien
         </div>
       </div>
     </section>
+    
+    <section id="resumetimeline">
+   	  <div class="container">
+      	<div class="row">
+        	<div class"col-lg-4 text-center">
+              <h3 class="section-heading">Resume</h3>
+              <hr class="primary">
+            </div>
+        </div>
+      </div>
+	</section>
+  
 
-    <section id="services">
+    <section id="experience">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -97,6 +116,9 @@ I enjoy working on my house (always making it just a little more energy efficien
           <div class="col-lg-3 col-md-12 text-center">
             <div class="service-box">
               <i class="text-primary sr-icons"><img src="img/C-Sharp.jpg" height="115" alt=""/></i>
+              <div class="progress-bar-success progress-bar-striped">
+              	2 years experience
+              </div>
               <h4>C#, ASP.NET, MVC</h4>
             </div>
           </div>
@@ -145,7 +167,7 @@ I enjoy working on my house (always making it just a little more energy efficien
         </div>
       </div>
   	  <a  style="margin-top: 56px; margin-left: 50%" class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">Portfolio!</a>
-    </section>
+  </section>
 
     <section class="p-0" id="portfolio">
       <div class="container-fluid">
@@ -278,7 +300,14 @@ I enjoy working on my house (always making it just a little more energy efficien
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
-
+  <script type="text/javascript">
+$(function() {
+	$( "#Slider1" ).slider(); 
+});
+$(function() {
+	$( "#Slider1" ).slider(); 
+});
+  </script>
   </body>
 
 </html>
