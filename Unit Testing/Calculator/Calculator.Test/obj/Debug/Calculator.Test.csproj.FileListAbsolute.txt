@@ -1,0 +1,15 @@
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\bin\Debug\Calculator.Test.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\bin\Debug\Calculator.Test.pdb
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\bin\Debug\Calculator.Library.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\bin\Debug\Calculator.Library.pdb
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\obj\Debug\Calculator.Test.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\obj\Debug\Calculator.Test.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\obj\Debug\Calculator.Test.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Test\obj\Debug\Calculator.Test.pdb

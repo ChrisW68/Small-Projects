@@ -1,0 +1,8 @@
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\bin\Calculator.Web.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\bin\Calculator.Web.pdb
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\bin\Calculator.Library.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\bin\Calculator.Library.pdb
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\obj\Debug\Calculator.Web.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\obj\Debug\Calculator.Web.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\obj\Debug\Calculator.Web.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\obj\Debug\Calculator.Web.pdb

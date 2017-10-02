@@ -1,0 +1,9 @@
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Library.Tests\bin\Debug\Calculator.Library.Tests.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Library.Tests\bin\Debug\Calculator.Library.Tests.pdb
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Library.Tests\bin\Debug\Calculator.Library.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Library.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Library.Tests\bin\Debug\Calculator.Library.pdb
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Library.Tests\obj\Debug\Calculator.Library.Tests.csprojResolveAssemblyReference.cache
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Library.Tests\obj\Debug\Calculator.Library.Tests.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Library.Tests\obj\Debug\Calculator.Library.Tests.dll
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Library.Tests\obj\Debug\Calculator.Library.Tests.pdb
