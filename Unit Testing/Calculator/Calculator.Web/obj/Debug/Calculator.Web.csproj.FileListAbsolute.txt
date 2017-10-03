@@ -6,3 +6,4 @@ C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\C
 C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\obj\Debug\Calculator.Web.csproj.CoreCompileInputs.cache
 C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\obj\Debug\Calculator.Web.dll
 C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\obj\Debug\Calculator.Web.pdb
+C:\Users\chris\Desktop\OneDrive\GitHub\GitHub\Projects\Unit Testing\Calculator\Calculator.Web\bin\Calculator.Web.dll.config
